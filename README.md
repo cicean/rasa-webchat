@@ -57,6 +57,8 @@ is also available and is updated continuously with the latest version.
 Install the package from GitHub by running:
 ```bash
 npm install mrbot-ai/rasa-webchat
+# the npm have issue on ssh:// connect so change to https://
+npm install git+https://git@github.com:mrbot-ai/rasa-webchat.git
 ```
 
 Then once it is installed it can be implemented as follows. 
